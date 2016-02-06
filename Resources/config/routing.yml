@@ -1,0 +1,4 @@
+h5pclaroline_controller:
+    resource: "@CPASimUSanteH5pClarolineBundle/Controller/H5pClarolineController.php"
+    type: annotation
+    prefix: /

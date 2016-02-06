@@ -1,0 +1,23 @@
+{
+    "name": "cpasimusante/h5p-claroline-bundle",
+    "description": "Plugin for H5P tool https://h5p.org",
+    "keywords": ["Claroline", "Plugin"],
+    "homepage": "http://www.claroline.net",
+    "type": "claroline-plugin",
+    "authors": [
+        {
+            "name": "SimUSante",
+            "email": "dechepy.olivier@chu-amiens.fr",
+            "homepage": "http://github.com/CPASimUSante"
+        }
+    ],
+    "license": "GPL-3.0+",
+    "require": {
+        "php": ">=5.4.1",
+        "claroline/core-bundle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": { "CPASimUSante\\H5pClarolineBundle": "" }
+    },
+    "target-dir": "CPASimUSante/H5pClarolineBundle"
+}
